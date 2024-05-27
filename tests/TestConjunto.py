@@ -1,7 +1,11 @@
 import unittest
-
+from SRC.logica.Conjunto import  Conjunto
 
 class TestConjunto(unittest.TestCase):
+    def test_Conjunto_vacio_retornable(self):
+        conjunto = Conjunto[]
+        self.assertIsNone(conjunto.promedio())
+
     def test_something(self):
         self.assertEqual(True, False)  # add assertion here
 
